@@ -1,29 +1,24 @@
-<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background Circle -->
-  <circle cx="60" cy="60" r="55" fill="#ecfdf5" stroke="#10b981" stroke-width="2"/>
-  
-  <!-- Shopping Bag -->
-  <path d="M 40 50 L 45 30 L 75 30 L 80 50 Z" fill="none" stroke="#10b981" stroke-width="2.5"/>
-  <path d="M 40 50 L 45 85 Q 45 90 50 90 L 70 90 Q 75 90 75 85 L 80 50" fill="none" stroke="#10b981" stroke-width="2.5"/>
-  <path d="M 50 30 Q 50 20 60 20 Q 70 20 70 30" fill="none" stroke="#10b981" stroke-width="2.5"/>
-  
-  <!-- Handle -->
-  <path d="M 50 30 Q 60 15 70 30" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round"/>
-  
-  <!-- Rice (Gold) -->
-  <circle cx="52" cy="60" r="5" fill="#fbbf24"/>
-  <circle cx="58" cy="62" r="4" fill="#fbbf24"/>
-  
-  <!-- Spices (Red) -->
-  <circle cx="62" cy="58" r="4" fill="#ef4444"/>
-  <circle cx="66" cy="61" r="3" fill="#ef4444"/>
-  
-  <!-- Oil (Yellow) -->
-  <rect x="68" y="65" width="6" height="8" fill="#fbbf24" rx="1"/>
-  
-  <!-- Leaf (Green at top) -->
-  <path d="M 75 35 Q 80 30 82 35" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>
-  
-  <!-- Accent Line -->
-  <line x1="45" y1="50" x2="75" y2="50" stroke="#10b981" stroke-width="1.5" opacity="0.4"/>
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Riddhi General Trading logo</title>
+  <desc id="desc">A premium gold and emerald leaf mark for Riddhi General Trading.</desc>
+  <defs>
+    <linearGradient id="leafGold" x1="16" y1="10" x2="94" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffd77a"/>
+      <stop offset="0.48" stop-color="#f2aa22"/>
+      <stop offset="1" stop-color="#d88a07"/>
+    </linearGradient>
+    <linearGradient id="leafEmerald" x1="30" y1="105" x2="104" y2="26" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#34e7a5"/>
+      <stop offset="1" stop-color="#035c4b"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#0b241f" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+  <circle cx="60" cy="60" r="56" fill="#fffdf8"/>
+  <path d="M33 87C23 61 29 34 57 16c-8 20-1 36 17 52 14 13 22 27 16 42-12-16-28-21-45-29-5 8-8 15-12 6Z" fill="url(#leafGold)" filter="url(#softShadow)"/>
+  <path d="M58 106c7-31 27-43 42-58 6-6 9-13 10-21 9 33-4 62-52 79Z" fill="url(#leafGold)" opacity="0.72"/>
+  <path d="M25 88c8 10 16 16 26 20" fill="none" stroke="url(#leafEmerald)" stroke-width="9" stroke-linecap="round"/>
+  <path d="M45 94c12-30 31-43 47-59" fill="none" stroke="#fffdf8" stroke-width="7" stroke-linecap="round" opacity="0.92"/>
+  <path d="M43 25c-7 14-6 27 4 39" fill="none" stroke="#fffdf8" stroke-width="6" stroke-linecap="round" opacity="0.86"/>
 </svg>

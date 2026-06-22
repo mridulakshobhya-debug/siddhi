@@ -1,7 +1,7 @@
 {
-  "name": "pmmodern",
+  "name": "riddhi-general-trading",
   "version": "1.0.0",
-  "description": "Premium Groceries Delivered Fresh - E-commerce Platform",
+  "description": "Premium UAE general trading catalogue for Riddhi General Trading FZ-LLC",
   "private": true,
   "scripts": {
     "dev": "python -m http.server 8000",
